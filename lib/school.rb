@@ -12,7 +12,7 @@ class School
   def add_student name, age
     if !@roster.has_key?(age)
       @roster[age] = name
-    else 
+    else
       @roster[age] << name
     end
   end
